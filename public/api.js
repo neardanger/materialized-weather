@@ -22,7 +22,7 @@ var weather_image;
             },
 
             error:function(){
-                alert("http://api.openweathermap.org/data/2.5/weather?")
+                alert("Chrome cannot receive Http requests for some reason (In Progress)")
             },
 
             success:function(data){
