@@ -19,11 +19,9 @@
     <nav class="red darken-4" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">WeatherControl</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -42,7 +40,7 @@
                 <div class="nav-wrapper">
                 <form>
                     <div class="input-field">
-                    <input id="search" type="search" placeholder="Input Location" required>
+                    <input id="search" class="search" type="search" placeholder="Input Location" required>
                     <label for="search"><i class="material-icons">search</i></label>
                     <i class="material-icons">close</i>
                     </div>
@@ -52,11 +50,23 @@
 
       </div>
       <div class="row center">
-        <a href="#" id="download-button" class="btn-large waves-effect waves-dark red">Search</a>
-      </div>
+        <button type="submit" class="btn-large waves-effect waves-dark red">Search</button>
+      
       <br><br>
 
+      <div class="row center">
+        <div class="col s12 m12 row center">
+          <div class="card red darken 4">
+            <div class="card-content white-text">
+              <span class="card-title">Weather Result</span>
+              <p id="forecast"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
   </div>
 
 
@@ -80,35 +90,20 @@
         <div class="col l6 s12">
           <h5 class="white-text">Look for weather in your area!</h5>
           <p class="grey-text text-lighten-4">Always know what the weather is like before going outside!</p>
-
-
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
         </div>
       </div>
     </div>
     </div>
   </footer>
 
+
   <script src="init.js"></script>
+  <script src="api.js"></script>
 
        
   </body>
-
 </html>
