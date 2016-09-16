@@ -18,7 +18,7 @@ var weather_image;
             type:"GET",
             data:{"q":showCity,
             "units":"imperial",
-            "appid":"5f3a6c71267fa25de4c154c1abbf3cc2"
+            "appid":"7d3e21a2db51b463cc37a42000a06ee4"
             },
 
             error:function(){
@@ -34,9 +34,6 @@ var weather_image;
             
             $('#forecast').text("The temperature in " + name + " is currently at " + temp + " degrees farenheit with " + description + "!")
 
-            
-            
-            
             }
         })
 
