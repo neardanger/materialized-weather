@@ -10,7 +10,7 @@ var weather_image;
         var showCity = $(".search").val();
         console.log("CLICK CLICK CLICK!")
 
-        var url = "http://api.openweathermap.org/data/2.5/weather?"
+        var url = "http://api.openweathermap.org/data/2.5/weather?" + "7d3e21a2db51b463cc37a42000a06ee4"
 
         event.preventDefault();
         $.ajax({
