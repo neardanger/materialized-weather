@@ -14,7 +14,7 @@ var weather_image;
 
         event.preventDefault();
         $.ajax({
-            url: "http://api.openweathermap.org/data/2.5/weather?" || "https://api.openweathermap.org/data/2.5/weather?",
+            url: "http://api.openweathermap.org/data/2.5/weather?",
             type:"GET",
             data:{"q":showCity,
             "units":"imperial",
