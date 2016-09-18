@@ -22,7 +22,7 @@ var weather_image;
             },
 
             error:function(){
-                alert("Chrome cannot receive Http requests for some reason (In Progress)")
+                alert("Chrome cannot receive Https requests from an http provider; for now load unsafe scripts for it to function")
             },
 
             success:function(data){
