@@ -12,3 +12,8 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.input-field input[type=search] {
+    background-color: white;
+    color: black
+}

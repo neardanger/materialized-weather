@@ -4,7 +4,8 @@ var weather_image;
 
 (function(){
     console.log('data is locked and loaded')
-    $(':submit').click(function(event){
+    
+    $(':submit' || ".input-field").click(function(event){
 
 
         var showCity = $(".search").val();
